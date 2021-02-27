@@ -1,0 +1,11 @@
+//增
+insert into <tablename> (field1,field2,field3..) values (value1,value2,value3);
+//删
+delete from <tablename> where <条件>;
+//改
+update <tablename> set <field>=<value> where <条件>;
+//查
+select * from <tablename>;
+select  <*/filed> select from <tablename> where <field>=<key>;
+select count(*) from <tablename>;
+select <*/field> form <tablename> where <field> like '%value%';
